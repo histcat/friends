@@ -18,7 +18,7 @@ for item in r_list:
     list_all.append(list)
 
 ob_all = {
-    "friend": list_all
+    "friends": list_all
 }
 
 
