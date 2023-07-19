@@ -28,6 +28,8 @@ jobs:
         python transform.py
     - name: Upload
       run: |
+        git config --global user.email "jessejessejeson@163.com"
+        git config --global user.name "histcat"
         git add -A
         git commit -m "Publish"
         git push origin main
